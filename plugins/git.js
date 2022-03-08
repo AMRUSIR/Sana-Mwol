@@ -35,7 +35,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: 'command help menu'}, (as
 
 *sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs* :https://github.com/Afx-Abu/Abu-media/tree/main/stickers*
 
-*ᴛʜɪs ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ` + config.BOT + `*
+*ᴛʜɪs ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ` + config.OA + `*
 
 `}) 
 
