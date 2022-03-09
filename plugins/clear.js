@@ -22,9 +22,9 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 Julie.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('```cleaning chat....```');
+    await message.sendMessage('```ᴄʟᴇᴀɴɪɴɢ ᴄʜᴀᴛ....```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🏳 Chat cleared 🏳```');
+    await message.sendMessage('```🏳  ᴄʟᴇᴀʀᴇᴅ 🏳```');
 }));
 
 Julie.addCommand({pattern: 'clean ?(.*)', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
