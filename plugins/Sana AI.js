@@ -257,7 +257,7 @@ if (conf.LANG == 'ML') {
     succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Sanu സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
-Asena.addCommand({ pattern: 'sana chat bot on ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.sana chat bot on / off' }, (async (message, match) => {
+Asena.addCommand({ pattern: 'sanu ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.sanu on / off' }, (async (message, match) => {
     var Sanu_status = `${conf.TALKING_SANA}`
     if (match[1] == 'on') {
         if (sanu_status == 'true') {
