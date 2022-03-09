@@ -40,6 +40,7 @@ module.exports = {
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://i.imgur.com/TR4CYrZ.jpg' : process.env.LG_LOGO,
     LOGO_NAME: process.env.LOGO_NAME === undefined ? 'Abu Ser' : process.env.LOGO_NAME,
+    BOT_NAME: process.env.BOT_NAME === undefined ? '© sᴀɴᴀ ᴍᴡᴏʟ ™' : process.env.LINK,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     BAD_KICK: process.env.BAD_KICK === undefined ? 'true' : process.env.BAD_KICK,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
