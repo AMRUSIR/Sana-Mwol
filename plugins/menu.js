@@ -1,22 +1,23 @@
-
-const Rashi = require('../events');
-const config = require('../config');
+const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
-const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
+const Config = require('../config');
+const fs = require('fs');
+const got = require('got');
+const config = require('../config');
+const Language = require('../language');
+const Lang = Language.getString('wallpaper');
 
-Rashi.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Asena.addCommand({pattern: 'git', fromMe: false, desc: 'command help menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
-    
     r_text[0] = Config.LG_LOGO
-    
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-
+    
     var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 
     var wish = ''
