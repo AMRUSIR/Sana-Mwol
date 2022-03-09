@@ -1,10 +1,10 @@
-/* Copyright (C) 2021 AJU.
+/* Copyright (C) 2021 ABU.
 
 Licensed under the  GPL-3.0 License;
 
 you may not use this file except in compliance with the License.
 
-Ajuser - AJU
+Abuser - ABU
 
 */
 
